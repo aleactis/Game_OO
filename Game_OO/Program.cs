@@ -13,7 +13,7 @@ namespace Game_OO
         static void Main(string[] args)
         {
             Item i = new Item();
-            WriteLine("Entre com ddos dados do item: ");
+            WriteLine("Entre com os dados do item: ");
             Write("Nome do item: ");
             i.NomeItem = ReadLine();
             Write("Valor do item: ");
